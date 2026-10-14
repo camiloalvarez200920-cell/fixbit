@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>PC Ayuda</title>
+<link rel="stylesheet" href="styles.css"></head><body>
+<header><h1>🖥️ PC Ayuda</h1><p data-i="sub"></p></header>
+<nav id="nav"></nav>
+<main>
+<section id="s0"><h2 data-i="g_h"></h2>
+<div class="row">
+<div><label data-i="l_cpu"></label><input id="hc" list="dlc" autocomplete="off" data-p="ph_c"></div>
+<div><label data-i="l_gpu"></label><input id="hg" list="dlg" autocomplete="off" data-p="ph_g"></div>
+<div><label>RAM</label><select id="hr"></select></div>
+<div><label data-i="l_q"></label><input id="q" data-p="ph_q"></div>
+<div><label data-i="l_gn"></label><select id="gn"></select></div>
+<div><label data-i="l_f"></label><select id="f"><option value="" data-i="all"></option><option value="ok" data-i="ok"></option><option value="wa" data-i="wa"></option><option value="no" data-i="no"></option></select></div></div>
+<p id="sum" class="mu"></p><div id="gt" class="cards"></div></section>
+
+<section id="s1"><h2 data-i="e_h"></h2><input id="eq" data-p="e_ph"><div id="er"></div></section>
+
+<section id="s2"><h2 data-i="gd_h"></h2><label data-i="g_pick"></label><select id="gs"></select>
+<div class="bar"><i id="gp" style="width:0"></i></div><p id="gl" class="mu"></p><ol id="gl2"></ol></section>
+
+<section id="s3"><h2 data-i="c_h"></h2>
+<div class="row"><div><label data-i="c_t"></label><select id="ct"><option value="c" data-i="cpus"></option><option value="g" data-i="gpus"></option></select></div>
+<div><label data-i="c_a"></label><input id="ca" list="dlx" autocomplete="off" data-p="ph_c"></div><div><label data-i="c_b"></label><input id="cb" list="dlx" autocomplete="off" data-p="ph_c"></div></div>
+<div id="cr" style="margin-top:14px"></div><p class="mu" data-i="c_note"></p></section>
+
+<section id="s4"><h2 data-i="opt"></h2>
+<div class="row">
+<div><label data-i="o_th"></label><select id="o_th"><option value="auto" data-i="th_a"></option><option value="light" data-i="th_l"></option><option value="dark" data-i="th_d"></option></select></div>
+<div><label data-i="o_lg"></label><select id="o_lg"><option value="es">Español</option><option value="en">English</option></select></div>
+<div><label data-i="o_fs"></label><select id="o_fs"><option value="14" data-i="fs_s"></option><option value="16" data-i="fs_m"></option><option value="19" data-i="fs_l"></option></select></div>
+<div><label data-i="o_vw"></label><select id="o_vw"><option value="grid" data-i="vw_g"></option><option value="list" data-i="vw_l"></option></select></div>
+<div><label data-i="o_cv"></label><select id="o_cv"><option value="1" data-i="on"></option><option value="0" data-i="off"></option></select></div></div>
+<label data-i="o_ac"></label><div id="sw" class="sw"></div>
+<p><button id="rs" class="btn" data-i="reset"></button></p><p class="mu" data-i="o_note"></p></section>
+</main>
+<datalist id="dlc"></datalist><datalist id="dlg"></datalist><datalist id="dlx"></datalist>
+<div class="md" id="md" hidden></div>
+<script src="data.js"></script>
+<script src="ui.js"></script>
+<script src="app.js"></script>
+</body></html>
