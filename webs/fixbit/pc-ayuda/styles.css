@@ -35,3 +35,4 @@ code{background:var(--bg);padding:1px 6px;border-radius:5px}
 .cards.list{grid-template-columns:1fr}.list .gc{display:flex;align-items:center}.list .cv{width:140px;flex:none}.list .cap{flex-direction:row;flex-wrap:wrap;align-items:center;gap:6px 14px}
 .sw{display:flex;gap:8px;margin:6px 0}.sw button{width:30px;height:30px;border-radius:50%;border:3px solid transparent;cursor:pointer}.sw .on{border-color:var(--tx)}
 .btn{border:1px solid var(--bd);background:var(--bg);color:var(--tx);border-radius:8px;padding:8px 14px;cursor:pointer;font:inherit}input.bad{border-color:var(--no)}
+header h1{display:flex;align-items:center;gap:10px}.logo{width:44px;height:44px;flex:none}
